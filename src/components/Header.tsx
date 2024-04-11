@@ -6,5 +6,5 @@ export default function HeaderPage() {
       <a href="">Contato</a>
       <a href="">Blog</a>
     </header>
-  );
+  )
 }
