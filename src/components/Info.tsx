@@ -6,7 +6,7 @@ export default function InfoSection() {
     <div className="mt-20 py-28 bg-neutral-0">
       <div className="p-28  grid grid-cols-2 items-center">
         <div className="gap-6 flex flex-col">
-          <h2 className="text-5xl font-bold text-neutral-600">
+          <h2 className="text-5xl font-bold text-neutral-800">
             Gerencie todos os seus empreendimentos
           </h2>
           <p className="text-neutral-600 text-lg">

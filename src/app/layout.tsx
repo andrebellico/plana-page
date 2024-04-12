@@ -2,12 +2,11 @@ import Navbar from '@/components/Navbar'
 import type { Metadata } from 'next'
 import { Bitter } from 'next/font/google'
 import './globals.css'
-
+import { Providers } from './providers'
 const bitter = Bitter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Plana',
-  description: 'Adhoc',
+  title: 'Plana Adhoc',
 }
 export default function RootLayout({
   children,
@@ -17,8 +16,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={bitter.className}>
-        <Navbar />
-        {children}
+        <Providers>
+          <Navbar />
+          {children}
+        </Providers>
       </body>
     </html>
   )
