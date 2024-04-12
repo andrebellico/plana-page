@@ -1,4 +1,5 @@
 import AboutHeSection from '@/components/AboutHe'
+import AboutPlanaSection from '@/components/AboutPlana'
 import FeedbackSection from '@/components/Clients'
 import FAQsSection from '@/components/FAQs'
 import FunctionalitiesSection from '@/components/Functionalities'
@@ -16,6 +17,7 @@ export default function HomePage() {
       <FAQsSection />
       <FeedbackSection />
       <AboutHeSection />
+      <AboutPlanaSection />
     </>
   )
 }
