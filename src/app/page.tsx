@@ -1,6 +1,7 @@
 import FunctionalitiesSection from '@/components/Functionalities'
 import Home from '@/components/Home'
 import InfoSection from '@/components/Info'
+import VideoSection from '@/components/VideoSection'
 
 export default function HomePage() {
   return (
@@ -8,6 +9,7 @@ export default function HomePage() {
       <Home />
       <FunctionalitiesSection />
       <InfoSection />
+      <VideoSection />
     </>
   )
 }
