@@ -36,7 +36,7 @@ const getButtonStyles = (
   }
 
   return {
-    buttonStyle: `${baseStyles[size]} ${variantStyles[variant].base} flex items-center gap-1 body-semi inline-flex items-center justify-center rounded px-4 transition-all duration-300 focus:border-2 focus:outline-none focus:ring-2 focus:ring-primary-700 focus:ring-primary-700 focus:dark:ring-dark-primary-700 focus:dark:ring-dark-primary-700 disabled:border-neutral-200 disabled:bg-neutral-150 disabled:text-neutral-600 `,
+    buttonStyle: `${baseStyles[size]} ${variantStyles[variant].base} flex items-center gap-1 font-bold   inline-flex items-center justify-center rounded px-4 transition-all duration-300 focus:border-2 focus:outline-none focus:ring-2 focus:ring-primary-700 focus:ring-primary-700 focus:dark:ring-dark-primary-700 focus:dark:ring-dark-primary-700 disabled:border-neutral-200 disabled:bg-neutral-150 disabled:text-neutral-600 `,
     loadingColor: variantStyles[variant].loadingColor,
   }
 }

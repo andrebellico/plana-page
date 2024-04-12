@@ -3,7 +3,7 @@ import { Button } from './Button'
 
 export default function Navbar() {
   return (
-    <header className=" absolute top-0 z-10 flex w-screen px-[100px] items-center py-6 bg-neutral-100 justify-between">
+    <header className=" fixed top-0 z-20 flex w-screen px-[100px] items-center py-6 bg-neutral-100 opacity-95 justify-between">
       <div className="flex gap-14 text-sm">
         <h1>Plana Adhoc</h1>
         <div className="gap-6 flex">
@@ -12,7 +12,7 @@ export default function Navbar() {
           <h1>FAQs</h1>
         </div>
       </div>
-      <div className="flex gap-4 font-bold">
+      <div className="flex gap-4 ">
         <Button variant="secondary">
           <Link
             target="_blank"

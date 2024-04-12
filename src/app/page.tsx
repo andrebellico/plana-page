@@ -1,10 +1,5 @@
-export default function Home() {
-  return (
-    <div>
-      <h1>Home</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quod?
-      </p>
-    </div>
-  )
+import Home from '@/components/Home'
+
+export default function HomePage() {
+  return <Home />
 }
