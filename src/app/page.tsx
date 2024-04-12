@@ -1,3 +1,4 @@
+import FeedbackSection from '@/components/Clients'
 import FAQsSection from '@/components/FAQs'
 import FunctionalitiesSection from '@/components/Functionalities'
 import Home from '@/components/Home'
@@ -12,6 +13,7 @@ export default function HomePage() {
       <InfoSection />
       <VideoSection />
       <FAQsSection />
+      <FeedbackSection />
     </>
   )
 }
