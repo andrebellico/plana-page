@@ -1,11 +1,15 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+}
+body {
+    background: rgb(246,246,249);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -16,18 +20,55 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+::-webkit-scrollbar {
+  width: 5px;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+
+.swiper-pagination-bullet {
+  background-color: red;
+}
+
+.swiper-button-next:after {
+  font-size: 20px !important;
+}
+
+.swiper-button-prev:after {
+  font-size: 20px !important;
+}
+
+.swiper-button-next {
+  position: absolute;
+  top: 20px !important;
+  right: 5px !important;
+}
+
+.swiper-button-prev {
+  position: absolute;
+  top: 20px !important;
+  left: 5px !important;
+}
+.custom-options-swiper .swiper-button-next {
+  position: absolute;
+  top: 50% !important;
+  right: 1rem !important;
+}
+
+.custom-options-swiper .swiper-button-prev {
+  position: absolute;
+  top: 50% !important;
+  left: 1rem !important;
 }

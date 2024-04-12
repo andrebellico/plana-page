@@ -7,16 +7,16 @@ import { SpinnerSvg } from './SpinnerSvg'
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   loading?: boolean
   variant?: 'primary' | 'secondary' | 'ternary'
-  size?: 's' | 'm' | 'l'
+  size?: 'l' // 's' | 'm' |
 }
 
 const getButtonStyles = (
   variant: 'primary' | 'secondary' | 'ternary',
-  size: 's' | 'm' | 'l',
+  size: 'l', // 's' | 'm' |
 ) => {
   const baseStyles = {
-    s: 'h-8 py-2',
-    m: 'h-9 py-[0.62rem]',
+    // s: 'h-8 py-2',
+    // m: 'h-9 py-[0.62rem]',
     l: 'h-10 py-3',
   }
 
@@ -45,7 +45,7 @@ export const Button = ({
   children,
   loading,
   variant = 'primary',
-  size = 's',
+  size = 'l',
   className,
   ...props
 }: ButtonProps) => {
