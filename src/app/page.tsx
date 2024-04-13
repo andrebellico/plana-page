@@ -1,11 +1,12 @@
-import AboutHeSection from '@/components/AboutHe'
-import AboutPlanaSection from '@/components/AboutPlana'
-import FeedbackSection from '@/components/Clients'
-import FAQsSection from '@/components/FAQs'
-import FunctionalitiesSection from '@/components/Functionalities'
-import Home from '@/components/Home'
-import InfoSection from '@/components/Info'
-import VideoSection from '@/components/VideoSection'
+import AboutHeSection from '@/components/Sections/AboutHe'
+import AboutPlanaSection from '@/components/Sections/AboutPlana'
+import FeedbackSection from '@/components/Sections/Clients'
+import FAQsSection from '@/components/Sections/FAQs'
+import Footer from '@/components/Footer'
+import FunctionalitiesSection from '@/components/Sections/Functionalities'
+import Home from '@/components/Sections/Home'
+import InfoSection from '@/components/Sections/Info'
+import VideoSection from '@/components/Sections/VideoSection'
 
 export default function HomePage() {
   return (
@@ -18,6 +19,7 @@ export default function HomePage() {
       <FeedbackSection />
       <AboutHeSection />
       <AboutPlanaSection />
+      <Footer />
     </>
   )
 }
