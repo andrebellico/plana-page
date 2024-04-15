@@ -1,9 +1,13 @@
 import Image from 'next/image'
 import { Button } from '../Button'
+import Link from 'next/link'
 
 export default function Home() {
   return (
-    <div className="flex justify-center items-center my-[80px] h-screen">
+    <div
+      id="Home"
+      className="flex justify-center items-center my-[80px] h-screen"
+    >
       <Image
         fetchPriority="high"
         alt="home image"
@@ -21,7 +25,15 @@ export default function Home() {
           sair do conforto da sua casa.
         </span>
         <div>
-          <Button>Começar agora!</Button>
+          <Button>
+            <Link
+              href={`https://wa.me/553584074351`}
+              target="_blank"
+              rel="noreferrer"
+            >
+              Começar agora!
+            </Link>
+          </Button>
         </div>
       </div>
     </div>

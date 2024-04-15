@@ -1,4 +1,3 @@
-import Navbar from '@/components/Navbar'
 import type { Metadata } from 'next'
 import { Bitter } from 'next/font/google'
 import './globals.css'
@@ -16,10 +15,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={bitter.className}>
-        <Providers>
-          <Navbar />
-          {children}
-        </Providers>
+        <Providers>{children}</Providers>
       </body>
     </html>
   )

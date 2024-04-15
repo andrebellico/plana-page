@@ -3,12 +3,13 @@
 import React from 'react'
 import { Accordion, AccordionItem } from '@nextui-org/accordion'
 import { Button } from '../Button'
+import Link from 'next/link'
 
 export default function FAQsSection() {
   const defaultContent =
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.'
   return (
-    <div className="bg-neutral-0 py-20 px-24">
+    <div id="FAQs" className="bg-neutral-0 py-20 px-24">
       <div className="flex gap-6 mb-4 items-center justify-start">
         <div className="w-24 h-0 border"></div>
         <p className="text-xs text-neutral-600">FAQs</p>
@@ -74,7 +75,15 @@ export default function FAQsSection() {
             assistência imediata.
           </p>
           <div className="mt-1">
-            <Button>Contate nos</Button>
+            <Button>
+              <Link
+                href={`https://wa.me/553584074351`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Contate nos
+              </Link>
+            </Button>
           </div>
         </div>
       </div>

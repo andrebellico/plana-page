@@ -1,9 +1,10 @@
 import Image from 'next/image'
 import { Button } from '../Button'
+import Link from 'next/link'
 
 export default function InfoSection() {
   return (
-    <div className="mt-20 py-28 bg-neutral-0">
+    <div id="Info" className="mt-20 py-28 bg-neutral-0">
       <div className="p-28  grid grid-cols-2 items-center">
         <div className="gap-6 flex flex-col">
           <h2 className="text-5xl font-bold text-neutral-800">
@@ -21,13 +22,25 @@ export default function InfoSection() {
           </p>
           <div className="flex gap-6 mt-11">
             <Button className="rounded-[40px] h-[66px] py-6 px-9 text-lg">
-              Get started
+              <Link
+                target="_blank"
+                rel="noreferrer"
+                href="https://plana-adhoc.vercel.app"
+              >
+                Entrar agora!
+              </Link>
             </Button>
             <Button
               variant="ternary"
               className="rounded-[40px] border-[2px] text-neutral-600 border-neutral-600 h-[66px] py-6 px-9 text-lg"
             >
-              Talk to sales
+              <Link
+                href={`https://wa.me/553584074351`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                Falar com a equipe
+              </Link>
             </Button>
           </div>
         </div>

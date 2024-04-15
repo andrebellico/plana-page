@@ -10,7 +10,7 @@ import FunctionalitiesCard from '../FunctionalitiesCard'
 
 export default function FunctionalitiesSection() {
   return (
-    <div className="mx-[100px]">
+    <div id="Funcionalidades" className="mx-[100px]">
       <div className="flex gap-6 mb-4 items-center justify-start">
         <div className="w-24 h-0 border"></div>
         <p className="text-xs text-neutral-600">Funcionalidades</p>

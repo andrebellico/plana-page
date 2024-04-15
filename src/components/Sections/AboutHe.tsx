@@ -2,7 +2,10 @@ import Image from 'next/image'
 
 export default function AboutHeSection() {
   return (
-    <div className="py-28 px-36 gap-36 flex justify-center items-center bg-neutral-0">
+    <div
+      id="Sobre"
+      className="py-28 px-36 gap-36 flex justify-center items-center bg-neutral-0"
+    >
       <Image
         src={'/Alessandra.svg'}
         width={423}

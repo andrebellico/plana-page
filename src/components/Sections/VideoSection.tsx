@@ -10,7 +10,7 @@ export default function VideoSection() {
     }
   }, [])
   return (
-    <div>
+    <div id="Tutorial">
       <div className="mx-24 my-20 grid gap-24 justify-center items-center grid-cols-2">
         {hasWindow && (
           <ReactPlayer
