@@ -23,7 +23,7 @@ export default function Navbar({ links, activeSection, onLinkClick }: Links) {
 
   return (
     <>
-      <header className="z-20 fixed top-0 flex w-screen px-24  items-center   py-6 bg-neutral-100 opacity-95 justify-between">
+      <header className="z-20 fixed top-0 flex w-screen  lg:px-24 md:px-16 sm:px-6 px-6 items-center   py-6 bg-neutral-100 opacity-95 justify-between">
         <div className="flex gap-14 text-sm">
           <Image src={'/logo.svg'} width={96} height={29} alt="logo" />
           <div className="gap-6 mt-2 hidden min-[1058px]:flex">

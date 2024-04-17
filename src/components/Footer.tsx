@@ -6,7 +6,7 @@ import Link from 'next/link'
 
 export default function Footer() {
   return (
-    <div className="text-neutral-500 bg-neutral-0 lg:px-24 md:px-16 sm:px-12 px-12 w-full text-lg flex flex-col ">
+    <div className="text-neutral-500 bg-neutral-0 lg:px-24 md:px-16 sm:px-6 px-6 w-full text-lg flex flex-col ">
       <div className="min-[1134px]:flex-row  flex-col flex gap-8 w-full mt-20 items-center justify-between">
         <Image src={'/logo.svg'} alt="logo" width={182} height={52} />
         <div className="grid grid-flow-col  max-[568px]:grid-flow-row max-[568px]:gap-3 text-center gap-10 text-sm">
