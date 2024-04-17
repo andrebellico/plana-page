@@ -10,13 +10,16 @@ import FunctionalitiesCard from '../FunctionalitiesCard'
 
 export default function FunctionalitiesSection() {
   return (
-    <div id="Funcionalidades" className="mx-[100px]">
+    <div className="lg:px-24 md:px-16 sm:px-12 px-12">
       <div className="flex gap-6 mb-4 items-center justify-start">
         <div className="w-24 h-0 border"></div>
         <p className="text-xs text-neutral-600">Funcionalidades</p>
       </div>
-      <div className="flex flex-row justify-between gap-[60px] items-end">
-        <h2 className="text-5xl font-bold">
+      <div
+        id="Funcionalidades"
+        className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 justify-between gap-[80px] items-end"
+      >
+        <h2 className="text-4xl font-bold">
           Personalize seu imóvel do jeito que deseja.
         </h2>
         <span className="text-lg text-neutral-600">
@@ -24,7 +27,7 @@ export default function FunctionalitiesSection() {
           e tornar cada um personalizavel para os seus clientes.
         </span>
       </div>
-      <div className="grid grid-cols-2 gap-9 mt-24">
+      <div className="sm:grid-cols-1 grid lg:grid-cols-2 md:grid-cols-2 gap-9 mt-24">
         <FunctionalitiesCard
           title="Sem reforma"
           subtitle="Nós instalamos todos os itens contratados, deixando você livre dos possíveis aborrecimentos que qualquer obra ocasionar."

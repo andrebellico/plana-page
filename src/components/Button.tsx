@@ -1,5 +1,3 @@
-// // Extract the styles to a separate file
-
 import { ButtonHTMLAttributes } from 'react'
 import { twMerge } from 'tailwind-merge'
 import { SpinnerSvg } from './SpinnerSvg'
@@ -7,15 +5,15 @@ import { SpinnerSvg } from './SpinnerSvg'
 interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   loading?: boolean
   variant?: 'primary' | 'secondary' | 'ternary'
-  size?: 'l' // 's' | 'm' |
+  size?: 'l' | 's' // | 'm' |
 }
 
 const getButtonStyles = (
   variant: 'primary' | 'secondary' | 'ternary',
-  size: 'l', // 's' | 'm' |
+  size: 'l' | 's', // | 'm' |
 ) => {
   const baseStyles = {
-    // s: 'h-8 py-2',
+    s: 'h-8 py-2',
     // m: 'h-9 py-[0.62rem]',
     l: 'h-10 py-3',
   }

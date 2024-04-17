@@ -19,10 +19,10 @@ export default function FunctionalitiesCard({
   bgcolor,
 }: FunctionalitiesProps) {
   return (
-    <div className="flex gap-7 items-center">
+    <div className="max-sm:flex-col md:flex lg:flex-row gap-7 flex items-center">
       <div
         className={twMerge(
-          'p-6 text-neutral-600 rounded-full bg-yellow-200 flex justify-center items-center',
+          'p-6 text-neutral-600 rounded-full bg-yellow-200 flex  justify-center items-center',
           bgcolor,
         )}
       >

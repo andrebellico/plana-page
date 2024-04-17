@@ -1,6 +1,5 @@
 'use client'
 import { useEffect, useState } from 'react'
-import ReactPlayer from 'react-player'
 
 export default function VideoSection() {
   const [hasWindow, setHasWindow] = useState(false)
@@ -11,21 +10,15 @@ export default function VideoSection() {
   }, [])
   return (
     <div id="Tutorial">
-      <div className="mx-24 my-20 grid gap-24 justify-center items-center grid-cols-2">
+      <div className="px-24 py-20 lg:grid-cols-2  sm:grid-cols-1 md:grid-cols-1 grid gap-24 justify-center items-center">
         {hasWindow && (
-          <ReactPlayer
-            url={
-              'https://www.youtube.com/watch?v=2RRFCQYv8aQ&list=RD2RRFCQYv8aQ&index=1'
-            }
-            width={'564px'}
-            height={'484px'}
-          />
+          <video controls src={'/videoteste.mp4'} className="w-full" />
         )}
-        <div className="gap-6 flex flex-col">
-          <h2 className="text-3xl text-neutral-950">
+        <div className="gap-6 flex justify-center items-center flex-col">
+          <h2 className="sm:text-3xl text-lg text-neutral-950">
             Veja como nosso sistema funciona
           </h2>
-          <p className="text-neutral-600 text-sm">
+          <p className="text-neutral-600 sm:text-sm text-center text-xs sm:w-full w-56">
             O Plana AdHoc é um sistema que automatiza o processo de escolha de
             personalizações de arquitetura, de forma intuitiva e interativa!
             Nossa missão é revolucionar a forma como a arquitetura é vivenciada,

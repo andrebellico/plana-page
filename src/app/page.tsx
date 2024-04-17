@@ -1,7 +1,6 @@
 'use client'
 
 import React, { useEffect, useState } from 'react'
-import AboutHeSection from '@/components/Sections/AboutHe'
 import AboutPlanaSection from '@/components/Sections/AboutPlana'
 import FeedbackSection from '@/components/Sections/Clients'
 import FAQsSection from '@/components/Sections/FAQs'
@@ -11,6 +10,7 @@ import Home from '@/components/Sections/Home'
 import InfoSection from '@/components/Sections/Info'
 import VideoSection from '@/components/Sections/VideoSection'
 import Navbar from '@/components/Navbar'
+import AboutSheSection from '@/components/Sections/AboutShe'
 
 export default function HomePage() {
   const [activeSection, setActiveSection] = useState('')
@@ -66,7 +66,7 @@ export default function HomePage() {
       <VideoSection />
       <FAQsSection />
       <FeedbackSection />
-      <AboutHeSection />
+      <AboutSheSection />
       <AboutPlanaSection />
       <Footer />
     </>

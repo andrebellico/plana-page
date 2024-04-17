@@ -1,38 +1,27 @@
-/* eslint-disable react/no-unescaped-entities */
 import Image from 'next/image'
 
 export default function AboutPlanaSection() {
   return (
-    <div className="py-32 px-56  flex flex-col">
-      <div className="flex gap-3 mb-6 justify-center items-center flex-col">
-        <h2 className="text-5xl">Plana Adhoc</h2>
-        <div className="border h-0 w-80 border-solid border-neutral-950"></div>
+    <div className="py-28 lg:px-36 md:px-20 sm:px-12 px-12 gap-24 flex flex-col">
+      <div>
+        <h1 className="text-5xl mb-3">Plana Adhoc</h1>
+        <div className="h-0 border-neutral-950 border w-[141px]"></div>
       </div>
-      <div className="flex mt-6">
-        <Image src={'/building2.svg'} alt="bulding1" width={289} height={525} />
-        <div className="mt-12 mx-8 text-neutral-700 text-sm gap-11 flex flex-col">
-          <p>
-            AD HOC, cuja expressão em latim é utilizada para descrever "para
-            esta finalidade", nosso propósito é{' '}
-            <strong>atender o mercado imobiliário</strong> oferecendo{' '}
-            <strong>
-              consultoria e implementando a área de Personalização
-            </strong>{' '}
-            de Unidades Autônomas para Construtoras e Incorporadoras
-            identificando e corrigindo "gaps" do negócio.
-          </p>
-          <p>
-            Avaliação de melhores e mais eficientes técnicas para alavancar os
-            resultados da companhia. Referência para empresas exigentes, que
-            procuram os <strong>melhores serviços</strong> aderente as melhores
-            práticas, com competência,{' '}
-            <strong> capacidade técnica e qualidade.</strong>
-            Otimização de processos e serviços diferenciados, nos comprometen"do
-            <strong> sempre a altura</strong> das exigências e demandas do
-            mercado
-          </p>
+      <div className="flex md:flex-col flex-col items-center justify-center sm:flex-col lg:flex-row gap-24">
+        <Image src={'/artboard.svg'} alt="logo" width={230} height={220} />
+        <div>
+          <h2 className="text-2xl text-neutral-950 mb-3">
+            Consultoria Especializada em Personalização Imobiliária.
+          </h2>
+          <span className="text-lg text-neutral-700">
+            Oferecemos consultoria especializada em personalização de unidades
+            autônomas para construtoras e incorporadoras. Identificamos e
+            corrigimos lacunas no negócio, implementando as melhores práticas
+            para alavancar resultados. Nosso foco está em otimizar processos e
+            serviços diferenciados, atendendo às exigências do mercado com
+            competência e qualidade.
+          </span>
         </div>
-        <Image src={'/building2.svg'} alt="bulding1" width={289} height={525} />
       </div>
     </div>
   )
