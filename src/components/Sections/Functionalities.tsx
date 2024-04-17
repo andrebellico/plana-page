@@ -31,27 +31,23 @@ export default function FunctionalitiesSection() {
         <FunctionalitiesCard
           title="Sem reforma"
           subtitle="Nós instalamos todos os itens contratados, deixando você livre dos possíveis aborrecimentos que qualquer obra ocasionar."
-          link="Ler mais"
           icon={<HardHat size={32} />}
         />
         <FunctionalitiesCard
           title="Garantia"
           subtitle="Quando as alterações são realizadas pela própria construtora, todas as garantias do imóvel são mantidas integralmente."
-          link="Ler mais"
           icon={<ShieldCheckered size={32} />}
           bgcolor="bg-secondary-100"
         />
         <FunctionalitiesCard
           title="Assessoria"
           subtitle="Arquitetos atentos às últimas tendências auxiliam gratuitamente, para que as escolhas sejam as mais adequadas ao seu perfil."
-          link="Ler mais"
           icon={<ChartPieSlice size={32} />}
           bgcolor="bg-success-100"
         />
         <FunctionalitiesCard
           title="Qualidade"
           subtitle="Somos quem mais entende do seu empreendimento garantimos um serviço de qualidade, comprovado na entrega."
-          link="Ler mais"
           icon={<CheckCircle size={32} />}
           bgcolor="bg-alternative-100"
         />
