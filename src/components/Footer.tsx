@@ -1,10 +1,6 @@
 'use client'
 
-import {
-  InstagramLogo,
-  LinkedinLogo,
-  WhatsappLogo,
-} from '@phosphor-icons/react'
+import { InstagramLogo, WhatsappLogo } from '@phosphor-icons/react'
 import Image from 'next/image'
 import Link from 'next/link'
 
