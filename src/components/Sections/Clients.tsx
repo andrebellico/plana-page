@@ -3,16 +3,16 @@ import Image from 'next/image'
 
 export default function FeedbackSection() {
   return (
-    <div className="lg:px-80  md:px-60 px-12 sm:px-12 flex flex-col text-center justify-center items-center h-screen">
+    <div className="lg:px-24 md:px-16 sm:px-12 px-12 flex flex-col text-center justify-center items-center h-screen">
       <div className="">
         <h4 className="text-primary-700 mb-6 ">Testemunhas</h4>
         <h2 className="max-lg:text-4xl text-4xl max-md:text-4xl max-sm:text-2xl text-neutral-950 font-bold">
           O que os nossos clientes <br></br> estão dizendo
         </h2>
       </div>
-      <div className="mt-20 flex flex-col gap-4 text-start">
+      <div className="mt-20 flex px-40 flex-col gap-4  text-start">
         <Image src={'/star.svg'} width={142} height={22} alt="feedback" />
-        <span className="text-3xl max-sm:text-lg text-neutral-950 font-semibold ">
+        <span className="text-3xl  max-sm:text-lg text-neutral-950 font-semibold ">
           “Achei que está muito fácil de navegar e com boa experiência. E
           imagens de qualidade.”
         </span>

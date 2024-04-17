@@ -5,7 +5,7 @@ import Link from 'next/link'
 export default function InfoSection() {
   return (
     <div id="Info" className="mt-20 py-28 bg-neutral-0">
-      <div className="lg:p-28 md:p-20 sm:p-12 p-12 gap-10 min-[968px]:grid-cols-2  grid grid-cols-1  items-center">
+      <div className="lg:p-24 md:p-16 sm:p-12 p-12 gap-10 min-[968px]:grid-cols-2  grid grid-cols-1  items-center">
         <div className="gap-6 flex flex-col">
           <h2 className="min-[1253px]:text-5xl sm:text-4xl text-3xl font-bold text-neutral-800">
             Gerencie todos os seus empreendimentos

@@ -10,7 +10,7 @@ export default function VideoSection() {
   }, [])
   return (
     <div id="Tutorial">
-      <div className="px-24 py-20 lg:grid-cols-2  sm:grid-cols-1 md:grid-cols-1 grid gap-24 justify-center items-center">
+      <div className="lg:px-24 md:px-16 sm:px-12 px-12 py-20 lg:grid-cols-2  sm:grid-cols-1 md:grid-cols-1 grid gap-24 justify-center items-center">
         {hasWindow && (
           <video controls src={'/videoteste.mp4'} className="w-full" />
         )}
