@@ -10,7 +10,7 @@ export default function FeedbackSection() {
           O que os nossos clientes <br></br> estão dizendo
         </h2>
       </div>
-      <div className="mt-20 flex px-40 flex-col gap-4  text-start">
+      <div className="mt-20 flex sm:px-0 md:px-0 lg:px-40 flex-col gap-4  text-start">
         <Image src={'/star.svg'} width={142} height={22} alt="feedback" />
         <span className="text-3xl  max-sm:text-lg text-neutral-950 font-semibold ">
           “Achei que está muito fácil de navegar e com boa experiência. E
