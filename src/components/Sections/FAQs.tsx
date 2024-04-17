@@ -11,7 +11,7 @@ export default function FAQsSection() {
   return (
     <div
       id="FAQs"
-      className="bg-neutral-0 py-20 lg:px-24 md:px-16 sm:px-12 px-12"
+      className="bg-neutral-0 py-20 lg:px-24 md:px-16 sm:px-6 px-6"
     >
       <div className="flex gap-6 mb-4 items-center justify-start">
         <div className="w-24 h-0 border"></div>

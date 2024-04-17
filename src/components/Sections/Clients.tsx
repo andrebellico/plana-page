@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 export default function FeedbackSection() {
   return (
-    <div className="lg:px-24 md:px-16 sm:px-12 px-12 flex flex-col text-center justify-center items-center h-screen">
+    <div className="lg:px-24 md:px-16 sm:px-6 px-6  flex flex-col text-center justify-center items-center h-screen">
       <div className="">
         <h4 className="text-primary-700 mb-6 ">Testemunhas</h4>
         <h2 className="max-lg:text-4xl text-4xl max-md:text-4xl max-sm:text-2xl text-neutral-950 font-bold">

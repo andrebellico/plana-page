@@ -10,7 +10,7 @@ export default function VideoSection() {
   }, [])
   return (
     <div id="Tutorial">
-      <div className="lg:px-24 md:px-16 sm:px-12 px-12 py-20 lg:grid-cols-2  sm:grid-cols-1 md:grid-cols-1 grid gap-24 justify-center items-center">
+      <div className="lg:px-24 md:px-16 sm:px-6 px-6 py-20 lg:grid-cols-2  sm:grid-cols-1 md:grid-cols-1 grid gap-24 justify-center items-center">
         {hasWindow && (
           <video controls src={'/videoteste.mp4'} className="w-full" />
         )}
@@ -25,7 +25,7 @@ export default function VideoSection() {
             fornecendo aos usuários uma maquete realista gerada dinamicamente
             com base em suas preferências.
           </p>
-          <div className="flex text-sm mx-8 my-12 gap-11">
+          <div className="sm:flex-row flex flex-col text-sm mx-8 my-12 gap-11">
             <div>
               <p>+12</p>
               <span className="text-neutral-600">Anos de Atuação</span>
