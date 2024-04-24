@@ -10,15 +10,15 @@ import FunctionalitiesCard from '../FunctionalitiesCard'
 
 export default function FunctionalitiesSection() {
   return (
-    <div className="lg:px-24 md:px-16 sm:px-6 px-6">
+    <div
+      id="Funcionalidades"
+      className="max-w-[1352px]  mx-auto lg:px-24 md:px-16 sm:px-6 px-6 pt-20"
+    >
       <div className="flex gap-6 mb-4 items-center justify-start">
         <div className="w-24 h-0 border"></div>
         <p className="text-xs text-neutral-600">Funcionalidades</p>
       </div>
-      <div
-        id="Funcionalidades"
-        className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 justify-between gap-[80px] items-end"
-      >
+      <div className="grid lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-1 justify-between gap-[80px] items-end">
         <h2 className="text-4xl font-bold">
           Personalize seu imóvel do jeito que deseja.
         </h2>

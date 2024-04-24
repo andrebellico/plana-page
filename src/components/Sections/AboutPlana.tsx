@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function AboutPlanaSection() {
   return (
-    <div className="py-28 lg:px-36 md:px-20 sm:px-12 px-12 gap-24 flex flex-col">
+    <div className="py-28 max-w-[1352px] mx-auto lg:px-36 md:px-20 sm:px-12 px-12 gap-24 flex flex-col">
       <div>
         <h1 className="text-5xl mb-3">Plana Adhoc</h1>
         <div className="h-0 border-neutral-950 border w-[141px]"></div>
