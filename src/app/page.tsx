@@ -60,6 +60,7 @@ export default function HomePage() {
         activeSection={activeSection}
         onLinkClick={scrollToSection}
       />
+
       <Home />
       <FunctionalitiesSection />
       <InfoSection />
@@ -68,6 +69,7 @@ export default function HomePage() {
       <FeedbackSection />
       <AboutSheSection />
       <AboutPlanaSection />
+
       <Footer />
     </>
   )
