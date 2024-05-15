@@ -18,7 +18,7 @@ export default function VideoSection() {
           <h2 className="sm:text-3xl text-lg text-neutral-950">
             Veja como nosso sistema funciona
           </h2>
-          <p className="text-neutral-600 sm:text-sm text-center text-xs sm:w-full w-56">
+          <p className="text-neutral-600 sm:text-sm text-center text-xs sm:w-full w-full ">
             O Plana AdHoc é um sistema que automatiza o processo de escolha de
             personalizações de arquitetura, de forma intuitiva e interativa!
             Nossa missão é revolucionar a forma como a arquitetura é vivenciada,

@@ -6,7 +6,7 @@ export default function InfoSection() {
   return (
     <div id="Info" className="  bg-neutral-0">
       <div className="max-w-[1352px] mx-auto mt-20 py-28">
-        <div className="lg:p-24 md:p-16 sm:p-6 p-6 gap-10 min-[968px]:grid-cols-2  grid grid-cols-1  items-center">
+        <div className="lg:p-24 md:p-16 sm:p-6 p-6 gap-10 min-[1064px]:grid-cols-2  grid grid-cols-1  items-center">
           <div className="gap-6 flex flex-col">
             <h2 className="min-[1253px]:text-5xl sm:text-4xl text-3xl font-bold text-neutral-800">
               Gerencie todos os seus empreendimentos
@@ -22,7 +22,7 @@ export default function InfoSection() {
               alavancar os resultados.
             </p>
             <div className="sm:flex-row flex-col flex gap-6 mt-11">
-              <Button className="rounded-[40px] sm:h-[66px] h-12 py-6 px-9 sm:text-lg text-xs">
+              <Button className="rounded-[40px] sm:h-[66px] md:text-base h-12 py-6 px-9 lg:text-base sm:text-xs">
                 <Link
                   target="_blank"
                   rel="noreferrer"
@@ -33,7 +33,7 @@ export default function InfoSection() {
               </Button>
               <Button
                 variant="ternary"
-                className="rounded-[40px] border-[2px] text-neutral-600 border-neutral-600 sm:text-lg text-xs sm:h-[66px] h-12 py-6 px-9 "
+                className="rounded-[40px] border-[2px] text-neutral-600 border-neutral-600 sm:text-base text-xs sm:h-[66px] h-12 py-6 px-9 "
               >
                 <Link
                   href={`https://wa.me/553584074351`}
