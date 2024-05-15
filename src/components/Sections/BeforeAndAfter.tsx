@@ -1,7 +1,7 @@
 'use client'
 
 import ReactBeforeSliderComponent from 'react-before-after-slider-component'
-import 'react-before-after-slider-component/dist/build.css'
+import './react-before-after-slider-component/dist/build.css'
 import { Button } from '../Button'
 
 export default function BeforeAndAfter() {
