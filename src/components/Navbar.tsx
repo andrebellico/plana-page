@@ -85,7 +85,10 @@ export default function Navbar({ links, activeSection, onLinkClick }: Links) {
             </Link>
           </Button>
         </div>
-        <div onClick={handleNavbar} className="block md:min-[1058px]:hidden">
+        <div
+          onClick={handleNavbar}
+          className={`block  md:min-[1058px]:hidden ${textColor}`}
+        >
           {!nav ? <List size={32} /> : <X size={32} />}
         </div>
         <ul
