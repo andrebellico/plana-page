@@ -19,7 +19,13 @@ export default function Footer() {
         </div>
         <div className="flex-col flex gap-4 min-[1134px]:flex-row text-neutral-700 justify-center items-center">
           <div className="text-center text-sm flex justify-center">
-            alessandra@planaadhoc.com.br
+            <Link
+              target="_blank"
+              rel="noreferrer"
+              href="mailto:alessandra@planaadhoc.com.br"
+            >
+              alessandra@planaadhoc.com.br
+            </Link>
           </div>
           <div className="flex gap-4">
             <div className="bg-neutral-100 p-2 rounded-lg">

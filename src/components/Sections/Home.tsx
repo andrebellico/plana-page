@@ -12,12 +12,12 @@ export default function Home() {
       <ImageComponent src={imageSrc} />
       <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center text-center text-white">
         <div className="gap-6 flex flex-col items-center lg:px-60 md:px-16 sm:px-6 px-6">
-          <h1 className="lg:text-5xl md:text-4xl sm:text-4xl text-3xl  text-primary-700 font-bold">
-            Torne o processo<br></br> mais simples
+          <h1 className="lg:text-4xl md:text-3xl sm:text-3xl text-3xl  text-primary-700 font-bold">
+            Alcance Novos Patamares de Sucesso com Facilidade
           </h1>
-          <span className=" text-sm">
-            Use a nossa tecnologia para transformar sua ideia em realidade,{' '}
-            <br></br>sem sair do conforto da sua casa.
+          <span className="text-sm">
+            Desbloqueie seu potencial máximo e alcance novos horizontes com
+            nosso sistema líder.
           </span>
           <div>
             <Button className="bg-green-600 hover:bg-green-500 text-white">
