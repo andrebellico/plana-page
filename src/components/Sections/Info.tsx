@@ -22,27 +22,27 @@ export default function InfoSection() {
               alavancar os resultados.
             </p>
             <div className="sm:flex-row flex-col flex gap-6 mt-11">
-              <Button className="rounded-[40px] sm:h-[66px] md:text-base h-12 py-6 px-9 lg:text-base sm:text-xs">
-                <Link
-                  target="_blank"
-                  rel="noreferrer"
-                  href="https://plana-adhoc.vercel.app"
-                >
-                  Entrar agora!
-                </Link>
-              </Button>
-              <Button
-                variant="ternary"
-                className="rounded-[40px] border-[2px] text-neutral-600 border-neutral-600 sm:text-base text-xs sm:h-[66px] h-12 py-6 px-9 "
+              <Link
+                target="_blank"
+                rel="noreferrer"
+                href="https://plana-adhoc.vercel.app"
               >
-                <Link
-                  href={`https://wa.me/553584074351`}
-                  target="_blank"
-                  rel="noreferrer"
+                <Button className="rounded-[40px] sm:h-[66px] md:text-base h-12 py-6 px-9 lg:text-base sm:text-xs">
+                  Entrar agora!
+                </Button>
+              </Link>
+              <Link
+                href={`https://wa.me/553584074351`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button
+                  variant="ternary"
+                  className="rounded-[40px] border-[2px] text-neutral-600 border-neutral-600 sm:text-base text-xs sm:h-[66px] h-12 py-6 px-9 "
                 >
                   Falar com a equipe
-                </Link>
-              </Button>
+                </Button>
+              </Link>
             </div>
           </div>
           <Image

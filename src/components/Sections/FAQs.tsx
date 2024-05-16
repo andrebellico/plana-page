@@ -37,15 +37,13 @@ export default function FAQsSection() {
               assistência imediata.
             </p>
             <div className="mt-1">
-              <Button>
-                <Link
-                  href={`https://wa.me/553584074351`}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Contate nos
-                </Link>
-              </Button>
+              <Link
+                href={`https://wa.me/553584074351`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <Button>Contate nos</Button>
+              </Link>
             </div>
           </div>
         </div>
