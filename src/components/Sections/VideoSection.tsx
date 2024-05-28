@@ -12,7 +12,7 @@ export default function VideoSection() {
     <div id="Tutorial">
       <div className="max-w-[1352px] mx-auto lg:px-24 md:px-16 sm:px-6 px-6 py-20 lg:grid-cols-2  sm:grid-cols-1 md:grid-cols-1 grid gap-24 justify-center items-center">
         {hasWindow && (
-          <video controls src={'/videoteste.mp4'} className="w-full" />
+          <video controls src={'/Tutorial PlanaAdhoc.mp4'} className="w-full" />
         )}
         <div className="gap-6 flex justify-center items-center flex-col">
           <h2 className="sm:text-3xl text-lg text-neutral-950">
