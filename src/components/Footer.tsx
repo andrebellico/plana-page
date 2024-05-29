@@ -24,7 +24,7 @@ export default function Footer() {
               rel="noreferrer"
               href="mailto:comercial@planaadhoc.com.br"
             >
-            comercial@planaadhoc.com.br
+              comercial@planaadhoc.com.br
             </Link>
           </div>
           <div className="flex gap-4">
